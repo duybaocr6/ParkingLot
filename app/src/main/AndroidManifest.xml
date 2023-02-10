@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nndb.com.parkinglotbctt">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ParkinglotBCTT">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Layout_Interface" />
+        <activity android:name=".Layout_Employees"/>
+        <activity android:name=".Licenceplate_Interface" />
+        <activity android:name=".Layout_Setting"/>
+        <activity android:name=".Layout_Bill"/>
+        <activity android:name=".Licence_Listview"/>
+        <activity android:name=".Layout_User"/>
+        <activity android:name=".Listview_User"/>
+        <activity android:name=".User_Item"/>
+        <activity android:name=".Information_Parkinglot"/>
+        <activity android:name=".Layout_Statistic"/>
+        <activity android:name=".Forgot_Password"/>
+        <activity android:name=".Layout_Register"/>
+        <activity android:name=".Current_Information"/>
+    </application>
+
+</manifest>

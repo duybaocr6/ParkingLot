@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fontFamily="sans-serif"
+    android:background="@drawable/parkinglot">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#43000000">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Management"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_CodeM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_marginTop="10dp"
+            android:text="Management Code"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_CodeM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_CodeM"
+            android:background="@color/black"
+            android:hint="Enter Code"
+            android:inputType="text"
+            android:lines="1"
+            android:maxLength="15"
+            android:minHeight="48dp"
+            android:textColorHint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txt_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_CodeM"
+            android:layout_marginTop="10dp"
+            android:text="Manager Name"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_Name"
+            android:background="@color/black"
+            android:hint="Enter Name"
+            android:inputType="text"
+            android:lines="1"
+            android:maxLength="15"
+            android:minHeight="48dp"
+            android:textColorHint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txt_Position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_Name"
+            android:layout_marginTop="10dp"
+            android:text="Position"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_Position"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_Position"
+            android:background="@color/black"
+            android:hint="Enter Position"
+            android:inputType="text"
+            android:lines="1"
+            android:maxLength="15"
+            android:minHeight="48dp"
+            android:textColorHint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txt_CodeE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_Position"
+            android:layout_marginTop="10dp"
+            android:text="Employee Code"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_CodeE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_CodeE"
+            android:background="@color/black"
+            android:hint="Enter Code"
+            android:inputType="text"
+            android:lines="1"
+            android:maxLength="15"
+            android:minHeight="48dp"
+            android:textColorHint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnCheckIn"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/edit_CodeE"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="32dp"
+            android:text="Submit"
+            android:textColor="#FFFFFF"></Button>
+
+    </RelativeLayout>
+</RelativeLayout>

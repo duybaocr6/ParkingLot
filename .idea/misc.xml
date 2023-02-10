@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/drawable/border.xml" value="0.26614583333333336" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/drawable/btn_border.xml" value="0.26614583333333336" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/drawable/btn_search.xml" value="0.26614583333333336" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/drawable/ic_baseline_arrow_drop_down_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/drawable/ic_baseline_bar_chart_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/drawable/ic_baseline_local_parking_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/drawable/ic_baseline_manage_accounts_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/drawable/ic_baseline_person_pin_24.xml" value="0.24074074074074073" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/drawable/ic_baseline_print_24.xml" value="0.26205128205128203" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.26205128205128203" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/drawable/none_color.xml" value="0.26614583333333336" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/drawable/spinner.xml" value="0.26614583333333336" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/layout/ic_baseline_directions_car_24.xml" value="0.25" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/layout/layou_forgotpassword.xml" value="0.25" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/layout/layout_admin.xml" value="0.264" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/layout/layout_bill.xml" value="0.264" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/layout/layout_currentinformation.xml" value="0.25" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/layout/layout_employee.xml" value="0.25" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/layout/layout_employees.xml" value="0.25" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/layout/layout_forgotpassword.xml" value="0.25" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/layout/layout_information.xml" value="0.25" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/layout/layout_itemuser.xml" value="0.264" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/layout/layout_licenceplate.xml" value="0.25" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/layout/layout_listviewlp.xml" value="0.2" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/layout/layout_listviewuser.xml" value="0.1782630777044185" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/layout/layout_register.xml" value="0.25" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/layout/layout_setting.xml" value="0.25" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/layout/layout_statistic.xml" value="0.25" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/layout/layout_user.xml" value="0.264" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/layout/layoutupdate.xml" value="0.25" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/layout/listview_licenceplate.xml" value="0.25" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/layout/listview_statistic.xml" value="0.25" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/layout/listview_user.xml" value="0.25" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/layout/select_colorspinner.xml" value="0.25" />
+        <entry key="..\:/laptrinhthietbididong/ParkinglotBCTT/app/src/main/res/layout/slider_layout.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">ParkingLot</string>
+    <string name="parking_lot">Parking Lot</string>
+    <string name="login">Login</string>
+    <string name="brand">Brand</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="FaceBook">FACEBOOK</string>
+    <string name="Google">GOOGLE</string>
+    <string name="Twitter">Twitter</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="username">Username</string>
+    <string name="user">User_name</string>
+    <string name="thong_tin_san_pham">Information Product</string>
+    <string name="nhan_vien">Manage Employees</string>
+    <string name="cai_dat_gia_ve">Setting Price</string>
+    <string name="nhat_ky">Note Book</string>
+    <string name="xe_vao">Licence_plate</string>
+    <string name="thong_ke">Statistics</string>
+    <string name="tim_kiem_xe">Search Licence_plate</string>
+    <string name="xe_ra">Xe Ra</string>
+    <string name="luu">Update</string>
+    <string name="tong_tien">Price :</string>
+    <string name="tinh_tien">Check In</string>
+    <string name="quan_ly_xe_vao">Vehicle Management</string>
+    <string name="nhap_loai_xe">Enter vehicle type</string>
+    <string name="gio_vao_ben">Date Time In :</string>
+    <string name="ngay_vao_ben">Date Time Out :</string>
+    <string name="loai_xe">Type Of Vehicle *:</string>
+    <string name="nhap_bien_so">Enter Number Plate</string>
+    <string name="bien_so">Licence Plate *:</string>
+    <string name="register">Register</string>
+    <string name="tongtien">Price</string>
+    <string name="ten">1911549657-Nguyễn Ngọc Duy Bảo</string>
+    <string name="quan_ly_xe_ra">Quản Lý Xe Ra</string>
+    <string name="gio_xuat_ben">Giờ Xuất Bến</string>
+    <string name="ngay_xuat_ben">Ngay Xuất Bến</string>
+    <string name="license_plate_list">License Plate List</string>
+    <string name="search">Search</string>
+    <string name="why_parksetup_guidance_system">Why ParkSetup Guidance System?</string>
+    <string name="easy_to_use">Easy to Use!</string>
+    <string name="parksetup">ParkSetup Parking Guidance System is economical in tern of time, personnel and cost, but it provides maximum benefit in optimization of high capacity parking areas</string>
+    <string name="possition">Possition</string>
+    <string name="admin_or_users">Admin or Employee</string>
+    <string name="percentage">percentage</string>
+    <string name="month">month</string>
+    <string name="total">total</string>
+    <string name="statistics">Statistics</string>
+    <string name="employee">Employee</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="address">Address</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_fullname">Enter Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="full_name">Full Name</string>
+    <string name="create">Create</string>
+    <string name="day_of_birth">Day Of Birth</string>
+    <string name="enter_day">Enter Day</string>
+    <string name="gender">Gender</string>
+    <string name="enter_gender">Enter Gender</string>
+    <string name="admin">Admin</string>
+    <string name="employeerbt">Employee</string>
+    <string name="email">Email</string>
+    <string name="enter_email">Enter Email</string>
+
+    <string-array name="array_name">
+        <item>Employee</item>
+        <item>Admin</item>
+    </string-array>
+
+    <string-array name="array_vehicle">
+        <item>Motorcycle</item>
+        <item>Car</item>
+    </string-array>
+
+    <string-array name="array_pricemoto">
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+        <item>6000</item>
+        <item>7000</item>
+        <item>8000</item>
+        <item>9000</item>
+        <item>10000</item>
+    </string-array>
+
+    <string-array name="array_pricecar">
+        <item>10000</item>
+        <item>15000</item>
+        <item>20000</item>
+        <item>25000</item>
+        <item>30000</item>
+        <item>35000</item>
+        <item>40000</item>
+        <item>45000</item>
+        <item>50000</item>
+    </string-array>
+</resources>

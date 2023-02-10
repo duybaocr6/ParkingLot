@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/parkinglot"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <RelativeLayout
+        android:id="@+id/container1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#A4090909">
+
+        <TextView
+            android:id="@+id/parkinglot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif"
+            android:text="Settings"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/Car"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/parkinglot"
+            android:layout_marginTop="20dp"
+            android:fontFamily="serif"
+            android:paddingLeft="20dp"
+            android:text="Car"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Car"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/spinner"
+            android:entries="@array/array_pricecar"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/Motorcycle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner1"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif"
+            android:paddingLeft="20dp"
+            android:text="Motorcycle"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Motorcycle"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/spinner"
+            android:entries="@array/array_pricemoto"
+            android:minHeight="48dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+        <Button
+            android:id="@+id/btnsetup"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_border"
+            android:padding="10dp"
+            android:text="Set up"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+</RelativeLayout>

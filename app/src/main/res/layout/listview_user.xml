@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:text="Ho va Ten"
+        android:textSize="20sp"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/txtemail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:textSize="20sp"
+        android:text="Email"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/txtdiachi"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:text="Dia Chi"
+        android:textSize="20sp"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/txtngaysinh"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:textSize="20sp"
+        android:text="Ngay Sinh"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/txtsdt"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:text="So Dien Thoai"
+        android:textSize="20sp"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/txtgioitinh"
+        android:layout_width="100dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:text="Gioi Tinh"
+        android:textColor="#000" />
+
+</LinearLayout>

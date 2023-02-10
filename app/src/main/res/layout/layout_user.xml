@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fontFamily="sans-serif"
+    android:background="@drawable/parkinglot">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#43000000">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/employee"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_Code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_marginTop="5dp"
+            android:text="Employee Code"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_Code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_Code"
+            android:background="@color/black"
+            android:hint="Enter Employee Code"
+            android:importantForAutofill="no"
+            android:inputType="text|textCapCharacters"
+            android:lines="1"
+            android:maxLength="15"
+            android:minHeight="48dp"
+            android:textColorHint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txt_Fullname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_Code"
+            android:layout_marginTop="5dp"
+            android:text="@string/full_name"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_Fullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_Fullname"
+            android:background="@color/black"
+            android:hint="@string/enter_fullname"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:lines="1"
+            android:maxLength="50"
+            android:minHeight="48dp"
+            android:textColorHint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txt_Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_Fullname"
+            android:layout_marginTop="5dp"
+            android:text="@string/email"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_Email"
+            android:background="@color/black"
+            android:hint="@string/enter_email"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:lines="1"
+            android:minHeight="48dp"
+            android:textColorHint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txt_Address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_Email"
+            android:layout_marginTop="5dp"
+            android:text="@string/address"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_Address"
+            android:background="@color/black"
+            android:hint="@string/enter_address"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:lines="1"
+            android:minHeight="48dp"
+            android:textColorHint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txt_Account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_Address"
+            android:layout_marginTop="5dp"
+            android:text="@string/day_of_birth"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_Day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_Account"
+            android:background="@color/black"
+            android:hint="@string/enter_day"
+            android:importantForAutofill="no"
+            android:inputType="textCapCharacters"
+            android:lines="1"
+            android:maxLength="15"
+            android:minHeight="48dp"
+            android:textColorHint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txt_PhoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_Day"
+            android:layout_marginTop="5dp"
+            android:text="@string/phone_number"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_PhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_PhoneNumber"
+            android:background="@color/black"
+            android:hint="@string/enter_phone_number"
+            android:importantForAutofill="no"
+            android:inputType="phone"
+            android:lines="1"
+            android:maxLength="10"
+            android:minHeight="48dp"
+            android:textColorHint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txt_Position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_PhoneNumber"
+            android:layout_marginTop="5dp"
+            android:text="@string/gender"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edit_Gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_Position"
+            android:background="@color/black"
+            android:hint="@string/enter_gender"
+            android:importantForAutofill="no"
+            android:inputType=""
+            android:lines="1"
+            android:maxLength="15"
+            android:minHeight="48dp"
+            android:textColorHint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnCheckIn"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/edit_Gender"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/create"
+            android:textColor="#FFFFFF"></Button>
+
+        <Button
+            android:id="@+id/btnList"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/edit_Gender"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:text="List"
+            android:textColor="#FFFFFF"></Button>
+
+        <Button
+            android:id="@+id/btncreateadmin"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/btnList"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="40dp"
+            android:text="Admin"
+            android:textColor="#FFFFFF"></Button>
+
+    </RelativeLayout>
+</RelativeLayout>

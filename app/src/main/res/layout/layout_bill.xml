@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/parkinglot">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#B9000000">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/brand"
+            app:srcCompat="@drawable/ic_baseline_local_parking_24"
+            app:tint="#FFFFFF" />
+
+        <RelativeLayout
+            android:id="@+id/relative"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/logo">
+
+            <TextView
+                android:id="@+id/txt_Lisenceplate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="License plate"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_Lisence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_Lisenceplate"
+                android:background="@color/black"
+                android:hint="Enter License plate"
+                android:inputType="text"
+                android:lines="1"
+                android:maxLength="50"
+                android:minHeight="48dp"
+                android:textColorHint="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/txt_Vehicle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edit_Lisence"
+                android:layout_marginTop="10dp"
+                android:text="Type Of Vehicle"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_Vehicle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_Vehicle"
+                android:background="@color/black"
+                android:hint="Enter vehicle"
+                android:inputType="textEmailAddress"
+                android:lines="1"
+                android:minHeight="48dp"
+                android:textColorHint="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/txt_Datetimein"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edit_Vehicle"
+                android:layout_marginTop="10dp"
+                android:text="Date Time In"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_Datetimein"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_Datetimein"
+                android:background="@color/black"
+                android:hint="Enter Date Time In"
+                android:inputType="datetime"
+                android:lines="1"
+                android:minHeight="48dp"
+                android:textColorHint="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/txt_Datetimeout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edit_Datetimein"
+                android:layout_marginTop="10dp"
+                android:text="Date Time Out"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_Datetimeout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_Datetimeout"
+                android:background="@color/black"
+                android:hint="Enter Date Time Out"
+                android:inputType="time"
+                android:lines="1"
+                android:minHeight="48dp"
+                android:textColorHint="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/txt_Parkingtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edit_Datetimeout"
+                android:layout_marginTop="10dp"
+                android:text="Parking Time"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_Parkingtime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_Parkingtime"
+                android:background="@color/black"
+                android:hint="Enter Parking Time"
+                android:inputType="text"
+                android:lines="1"
+                android:minHeight="48dp"
+                android:textColorHint="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/txt_Payment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edit_Parkingtime"
+                android:layout_marginTop="10dp"
+                android:text="Payment"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit_Payment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_Payment"
+                android:background="@color/black"
+                android:hint="Enter Payment"
+                android:inputType="text"
+                android:lines="1"
+                android:minHeight="48dp"
+                android:textColorHint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="140dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/edit_Payment"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="110dp"
+                android:text="Submit"
+                android:textColor="#FFFFFF"></Button>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

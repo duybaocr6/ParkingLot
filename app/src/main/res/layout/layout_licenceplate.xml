@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fontFamily="sans-serif"
+    android:background="@drawable/parkinglot">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#43000000">
+
+        <TextView
+            android:id="@+id/xevao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/quan_ly_xe_vao"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageIL"
+            android:layout_width="match_parent"
+            android:layout_height="317dp"
+            android:layout_below="@+id/xevao"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_baseline_image_24"
+            app:strokeWidth="2dp" />
+
+        <TextView
+            android:id="@+id/txt_Lisence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageIL"
+            android:layout_marginTop="10dp"
+            android:text="@string/bien_so"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_Lisence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_Lisence"
+            android:background="@color/black"
+            android:hint="@string/nhap_bien_so"
+            android:inputType="text|textCapCharacters"
+            android:lines="1"
+            android:maxLength="15"
+            android:minHeight="48dp"
+            android:textColorHint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txt_Typevehicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_Lisence"
+            android:layout_marginTop="10dp"
+            android:text="@string/loai_xe"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/edit_Typevehicle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_Typevehicle"
+            android:background="@drawable/spinner"
+            android:entries="@array/array_vehicle"
+            android:minHeight="48dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/inputimagebtn"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/edit_Typevehicle"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:text="take image" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/recognizeimagebtn"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/edit_Typevehicle"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:text="recognize image" />
+
+        <Button
+            android:id="@+id/btnCheckIn"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/edit_Typevehicle"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="82dp"
+            android:text="@string/tinh_tien"
+            android:textColor="#FFFFFF"></Button>
+    </RelativeLayout>
+</RelativeLayout>
